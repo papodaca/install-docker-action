@@ -1,7 +1,7 @@
 name: Install Docker
 description: Install Docker on debian or ubuntu
 runs:
-  using: "composite"
+  using: composite
   steps:
     - shell: bash
       run: |
